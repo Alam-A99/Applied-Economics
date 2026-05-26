@@ -10,9 +10,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+st.image("icon.png", width=150) 
 # 👇 JUDUL & SUBJUDUL BARU
-st.title("🔹️ Simulasi Ekonomi Terapan")
+st.title("Simulasi Ekonomi Terapan")
 st.subheader("Informasi Asimetris & Adverse Selection")
 
 st.markdown("""
