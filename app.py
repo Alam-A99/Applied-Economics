@@ -16,7 +16,7 @@ st.title("Simulasi Ekonomi Terapan")
 st.subheader("Informasi Asimetris & Adverse Selection")
 
 st.markdown("""
-Model ini mensimulasikan **The Market for Lemons** (George Akerlof, 1970). 
+Model ini mensimulasikan **The Market for Lemons** (George Akerlof). 
 Pembeli tidak mengetahui kualitas individual barang, sehingga menawar berdasarkan **rata-rata kualitas yang ditawarkan**. 
 Penjual mengetahui kualitas asli barangnya dan hanya mau menjual jika harga pasar ≥ harga reserve mereka.
 """)
