@@ -83,6 +83,55 @@ buyer_mult=1.4, seller_mult=1.0, transparency=0.0
 Tambahkan biaya sertifikasi untuk supplier berkualitas tinggi
 # → Supplier bagus tetap masuk pasar, efisiensi meningkat
 
+💡 Tips Mengatur Parameter
+
+🔹 Untuk simulasi dasar (Market for Lemons):
+   - Fokus pada: Multiplier Pembeli, Multiplier Penjual, Transparansi Data
+   - Abaikan: Intensitas Konflik, Premi Risiko (set ke nilai minimal)
+
+🔹 Untuk simulasi geopolitik (Pasar Minyak):
+   - Fokus pada: Intensitas Konflik, Premi Risiko, Transparansi Data
+   - Gunakan n_suppliers ≥ 80 untuk hasil yang lebih stabil
+
+🔹 Untuk presentasi/demonstrasi:
+   - Gunakan Seed Random tetap (misal: 42) agar hasil konsisten
+   - Mulai dari parameter default, lalu ubah satu per satu untuk menunjukkan efek marginal
+
+🎮 Cara Penggunaan
+Menjalankan Dashboard
+
+
+
+Membaca Output
+Grafik Harga vs Kualitas: Garis yang menyilang/menjauh menandakan adverse selection
+Grafik Volume vs Ketidakpastian: Penurunan volume + kenaikan uncertainty = unraveling
+Status Pasar: Label otomatis (🟢 Stabil / 🟡 Cautious / 🔴 High Anxiety / ⚫ Collapse)
+Tabel Historis: Data mentah per periode untuk analisis kuantitatif
+Mengekspor Hasil
+Klik tombol 📥 Unduh Data Simulasi (CSV) di sidebar untuk mengunduh hasil dalam format yang kompatibel dengan Excel, R, atau Python.
+
+1️⃣ Grafik Harga vs Kualitas
+📈 Interpretasi Visual:
+┌─────────────────────────────────────┐
+│  Harga (USD)     │  Kualitas (%)    │
+│  🔴 Garis Merah  │  🔵 Garis Biru   │
+├─────────────────────────────────────┤
+│ • Naik tajam     │ • Turun drastis  │ → 🚨 Adverse Selection Aktif
+│ • Stabil datar   │ • Stabil sejajar │ → ✅ Pasar Efisien
+│ • Volatil zigzag │ • Fluktuatif     │ → ⚠️ Ketidakpastian Tinggi
+└─────────────────────────────────────┘
+
+2️⃣ Grafik Volume vs Ketidakpastian
+📦 Interpretasi Visual:
+┌─────────────────────────────────────┐
+│  Volume (Batang) │  Uncertainty (Garis) │
+│  🟦 Biru         │  🟠 Oranye           │
+├─────────────────────────────────────┤
+│ • Volume ↓ + Uncertainty ↑ │ → 🌀 Unraveling Effect
+│ • Volume ↑ + Uncertainty ↓ │ → 🟢 Pemulihan Pasar
+│ • Volume stabil + Uncertainty tinggi │ → ⚖️ Equilibrium Rendah
+└─────────────────────────────────────┘
+
 📚 Referensi Akademik
 Akerlof, G. A. (1970). The Market for "Lemons": Quality Uncertainty and the Market Mechanism. Quarterly Journal of Economics, 84(3), 488–500.
 🔗 DOI:10.2307/1879431
