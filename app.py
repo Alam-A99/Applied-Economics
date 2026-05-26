@@ -141,5 +141,5 @@ with col_b:
 
 # Footer
 st.markdown("---")
-st.caption("Simulasi berbasis model Akerlof (1970). Parameter dapat diubah di sidebar untuk menguji ketahanan pasar terhadap berbagai tingkat valuasi dan heterogenitas kualitas.")
+st.caption("Simulasi berbasis model Akerlof. Parameter dapat diubah di sidebar untuk menguji ketahanan pasar terhadap berbagai tingkat valuasi dan heterogenitas kualitas.")
 st.caption ('copyleft @alamyin www.dataaksi.id')
