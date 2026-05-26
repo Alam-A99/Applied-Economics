@@ -97,7 +97,7 @@ Tambahkan biaya sertifikasi untuk supplier berkualitas tinggi
    - Gunakan Seed Random tetap (misal: 42) agar hasil konsisten
    - Mulai dari parameter default, lalu ubah satu per satu untuk menunjukkan efek marginal
 
-🎮 Cara Penggunaan
+##  Cara Penggunaan
 Menjalankan Dashboard
 
 
@@ -132,7 +132,7 @@ Klik tombol 📥 Unduh Data Simulasi (CSV) di sidebar untuk mengunduh hasil dala
 │ • Volume stabil + Uncertainty tinggi │ → ⚖️ Equilibrium Rendah
 └─────────────────────────────────────┘
 
-📚 Referensi Akademik
+## 📚 Referensi Akademik
 Akerlof, G. A. (1970). The Market for "Lemons": Quality Uncertainty and the Market Mechanism. Quarterly Journal of Economics, 84(3), 488–500.
 🔗 DOI:10.2307/1879431
 Spence, M. (1973). Job Market Signaling. Quarterly Journal of Economics, 87(3), 355–374.
