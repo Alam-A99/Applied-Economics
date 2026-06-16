@@ -1,4 +1,4 @@
-# 🍋 Simulasi Ekonomi Terapan: Informasi Asimetris & Adverse Selection
+# Simulasi Ekonomi Terapan: Informasi Asimetris & Adverse Selection
 
 > Dashboard interaktif berbasis Streamlit untuk memodelkan dinamika pasar dengan informasi tidak sempurna, mengadaptasi teori klasik *The Market for Lemons* (George Akerlof, 1970).
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 📖 Deskripsi
+## Deskripsi
 
 Proyek ini merupakan implementasi komputasional dari model **informasi asimetris** dalam ekonomi. Simulasi ini menunjukkan bagaimana ketimpangan informasi antara pembeli dan penjual dapat menyebabkan:
 
@@ -34,7 +34,7 @@ Dashboard ini dirancang untuk:
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 | Fitur | Deskripsi |
 |-------|-----------|
@@ -47,7 +47,7 @@ Dashboard ini dirancang untuk:
 
 ---
 
-## 🚀 Instalasi
+## Instalasi
 
 ### Prasyarat
 - Python ≥ 3.9
