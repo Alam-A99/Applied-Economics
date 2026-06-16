@@ -211,7 +211,7 @@ with st.expander("📊 Lihat Data Historis Lengkap"):
 # =============================================================================
 # INTERPRETASI EKONOMI DINAMIS
 # =============================================================================
-st.subheader("🧠 Interpretasi Ekonomi")
+st.subheader("Interpretasi Ekonomi")
 
 market_collapsed = df_hist['num_offered'].iloc[-1] == 0
 final_price = df_hist['price'].iloc[-1] * exchange_rate  # Konversi ke Rupiah
@@ -254,3 +254,4 @@ st.markdown("---")
 st.caption("Simulasi berbasis model Akerlof (1970). Parameter dapat diubah di sidebar untuk menguji ketahanan pasar terhadap berbagai tingkat valuasi dan heterogenitas kualitas.")
 st.caption("💱 1 unit valuasi = Rp {:,}".format(exchange_rate).replace(",", "."))
 st.caption("copyleft @alamyin www.dataaksi.id")
+
