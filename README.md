@@ -4,17 +4,17 @@
 
 ---
 
-## 📋 Daftar Isi
+## Daftar Isi
 - [📖 Deskripsi](#-deskripsi)
-- [✨ Fitur Utama](#-fitur-utama)
-- [🚀 Instalasi](#-instalasi)
-- [🎮 Cara Penggunaan](#-cara-penggunaan)
-- [⚙️ Parameter Simulasi](#️-parameter-simulasi)
-- [🧠 Dasar Teori](#-dasar-teori)
+- [Fitur Utama](#-fitur-utama)
+- [Instalasi](#-instalasi)
+- [Cara Penggunaan](#-cara-penggunaan)
+- [Parameter Simulasi](#️-parameter-simulasi)
+- [Dasar Teori](#-dasar-teori)
 - [📁 Struktur Proyek](#-struktur-proyek)
-- [🔬 Skenario Eksperimen](#-skenario-eksperimen)
-- [🤝 Kontribusi](#-kontribusi)
-- [📜 Lisensi](#-lisensi)
+- [Skenario Eksperimen](#-skenario-eksperimen)
+- [Kontribusi](#-kontribusi)
+- [Lisensi](#-lisensi)
 - [📚 Referensi](#-referensi)
 
 ---
